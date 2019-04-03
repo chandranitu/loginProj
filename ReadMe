@@ -1,0 +1,24 @@
+
+git clone https://github.com/chandranitu/loginProj
+
+https://dzone.com/articles/static-code-analysis-and
+
+C:\Users\chandrashekhar_kumar\Downloads\workspace\loginProj>mvn sonar:sonar
+#sonar
+admin/admin
+
+#jenkins
+admin/admin
+
+#mysql
+user-root
+pass-root
+
+create table users(
+id int unsigned not null auto_increment,
+primary key(id),
+fullname varchar(30) not null,
+email varchar(30) not null,
+username varchar(30) not null,
+password varchar(30) not null,
+unique key(username));
